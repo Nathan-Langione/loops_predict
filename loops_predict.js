@@ -14,8 +14,8 @@ for(var i = 1; i < 10; i+=2){
 
 
 
-/* Will print the number stored in j. If the number is divisible by 2 it will increment by 2, if divisible by 3 it will increment by 1, 
-and if not divisible by either it will increment by 1. The result would be 1, 4, 5, 8, 10, 11, 14, 16 */
+/* Will print the number stored in j while less than or equal to 15. If the number is divisible by 2 it will increment by 2, and if divisible by 3 it will increment by 1, 
+before printing to console. Then it will increment by 1, The result would be 1, 4, 5, 8, 10, 11, 14, 16 */
 for(var j = 1; j <= 15; j++){
     if(j % 2 == 0){
         j+=2;
